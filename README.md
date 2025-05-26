@@ -32,15 +32,12 @@ If you want to use pre-trained models directly without training, download them f
 
 Make sure you have Python 3.8+ installed. Then install required packages using:
 
-```bash
-pip install -r requirements.txt
-
-## Installation
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Uyrjn/20242_NLP.git
    cd 20242_NLP
+
 2.  Then install required packages using:
 
 pip install -r requirements.txt
