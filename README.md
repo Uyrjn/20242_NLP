@@ -15,11 +15,25 @@ We use the **SemEval 2014 Task 4** dataset, which contains restaurant and laptop
   - Aspect terms with their positions in sentences.
   - Sentiment polarity labels (positive, negative, neutral) for each aspect term.
 
-## Model Architecture
+## Folder Structure
 
-- **Aspect Term Extraction:** Treated as a sequence labeling task with BIO tagging, implemented and fine-tuned using BERT and T5.
-- **Sentiment Classification:** A separate classification model predicts sentiment polarity for each extracted aspect term.
-- Encoder-only models like BERT are primarily used for token-level classification tasks in this project.
+
+- The `/model` folder contains the trained models.
+- The `/data` folder contains the dataset used for training and evaluation.
+- The `/src` folder contains all source code.
+
+## Pre-trained Models
+
+If you want to use pre-trained models directly without training, download them from the following Google Drive link:
+
+[Google Drive - Pretrained ABSA Models](https://drive.google.com/drive/folders/1n6tgLScgJZxnGxkuKuFpXxRPxMbcV2eh?usp=sharing)
+
+## Installation
+
+Make sure you have Python 3.8+ installed. Then install required packages using:
+
+```bash
+pip install -r requirements.txt
 
 ## Installation
 
@@ -27,3 +41,8 @@ We use the **SemEval 2014 Task 4** dataset, which contains restaurant and laptop
    ```bash
    git clone https://github.com/Uyrjn/20242_NLP.git
    cd 20242_NLP
+2.  Then install required packages using:
+
+pip install -r requirements.txt
+
+
