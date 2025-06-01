@@ -5,11 +5,11 @@
 
 This project focuses on Aspect-Based Sentiment Analysis (ABSA) using transformer-based models such as BERT and T5. The goal is to identify aspect terms in sentences and classify their corresponding sentiment polarities (positive, negative, neutral, conflict).
 
-We use the **SemEval 2014 Task 4** dataset, which contains restaurant and laptop reviews annotated with aspect terms and sentiment labels.
+We use the **SemEval 2016** dataset, which contains restaurant and laptop reviews annotated with aspect terms and sentiment labels.
 
 ## Dataset
 
-- **Source:** SemEval 2014 Task 4 – Laptop and Restaurant Reviews
+- **Source:** SemEval 2016 
 - **Language:** English
 - **Annotations:**
   - Aspect terms with their positions in sentences.
