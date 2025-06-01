@@ -26,7 +26,7 @@ We use the **SemEval 2014 Task 4** dataset, which contains restaurant and laptop
 
 If you want to use pre-trained models directly without training, download them from the following Google Drive link:
 
-[Google Drive - Pretrained ABSA Models](https://drive.google.com/drive/folders/1n6tgLScgJZxnGxkuKuFpXxRPxMbcV2eh?usp=sharing)
+[Google Drive - Pretrained ABSA Models](https://drive.google.com/drive/folders/1Cc0ZZx7L9Zw7ozcMC2MYCb86DBGhbwgQ?usp=drive_link)
 
 ## Installation
 
